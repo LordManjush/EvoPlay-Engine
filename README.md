@@ -27,4 +27,4 @@ In build features
 * Effects creator
 * Audio
 
-Focusing on smooth gameplay. Made by one idiot.
+Focusing on smooth gameplay. Made by one guy.
