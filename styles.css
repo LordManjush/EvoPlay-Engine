@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#editor {
+    display: flex;
+}
+
+#propertiesPanel, #sceneView, #gameObjectList {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+#propertiesPanel {
+    width: 200px;
+}
+
+#sceneView {
+    flex: 1;
+}
+
+#sceneCanvas {
+    border: 1px solid #000;
+}
+
+#gameObjectList {
+    width: 150px;
+}
+
+#gameObjectList h2 {
+    margin-top: 0;
+}
+
+#objects {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#objects li {
+    cursor: pointer;
+}
+
+#objects li:hover {
+    background-color: #ccc;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}

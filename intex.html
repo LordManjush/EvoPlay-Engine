@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>EvoPlay Engine</title>
+</head>
+<body>
+    <div id="editor">
+        <div id="propertiesPanel">
+            <h2>Properties</h2>
+            <label for="objectName">Name</label>
+            <input type="text" id="objectName">
+            <h2>Position</h2>
+            <h3>X</h3>
+            <input type="number" id="objectPosX">
+            <h3>Y</h3>
+            <input type="number" id="objectPosY">
+            <label for="objectScale">Size</label>
+            <input type="number" id="objectScale">
+
+            <label for="objectColor">Color</label>
+            <input type="color" id="objectColor">
+            <button id="updateGOButton">Save Data</button>
+        </div>
+        <div id="sceneView">
+            <canvas id="sceneCanvas" width="400" height="300"></canvas>
+        </div>
+        <div id="gameObjectList">
+            <h2>Game Objects</h2>
+            <ul id="objects">
+            </ul>
+            <button id="addGOButton">Add Object</button>
+            <button id="removeGOButton">Remove Object</button>
+        </div>
+    </div>
+    <script src="logic.js"></script>
+</body>
+</html>
